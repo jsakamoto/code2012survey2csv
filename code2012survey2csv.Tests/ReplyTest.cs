@@ -28,7 +28,7 @@ namespace code2012survey2csv.Tests
             reply.locale.Is("北海道");
             reply.how_year.Is(21);
             reply.why.Is("[true,false,true,true,false,true]");
-            reply.created_at.ToLocalTime().Is(DateTime.Parse("2012/7/17 12:44:45"));
+            reply.created_at.Is(DateTime.Parse("2012/7/17 3:44:45"));
             reply.free_comment.Is("これは\r\nテスト");
         }
 
@@ -52,7 +52,7 @@ namespace code2012survey2csv.Tests
             reply.locale.IsNull();
             reply.how_year.IsNull();
             reply.why.IsNull();
-            reply.created_at.ToLocalTime().Is(DateTime.Parse("2012/7/17 12:44:45"));
+            reply.created_at.Is(DateTime.Parse("2012/7/17 3:44:45"));
             reply.free_comment.IsNull();
         }
 
