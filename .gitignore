@@ -1,0 +1,8 @@
+
+*.suo
+/packages
+/TestResults
+/code2012survey2csv/bin
+/code2012survey2csv/obj
+/code2012survey2csv.Tests/obj
+/code2012survey2csv.Tests/bin
